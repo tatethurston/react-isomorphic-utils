@@ -9,9 +9,6 @@
     "url": "https://github.com/tatethurston/react-isomorphic-utils"
   },
   "main": "dist/index.js",
-  "files": [
-    "dist/index.d.ts"
-  ],
   "scripts": {
     "build": "yarn clean && yarn tsc && yarn webpack",
     "clean": "rm -rf dist",
@@ -53,12 +50,11 @@
     "webpack-cli": "^4.7.0"
   },
   "keywords": [
-    "isomorphic",
-    "progressive enhancement",
-    "react",
-    "ssr",
-    "typescript",
-    "universal"
+    "react isomorphic",
+    "react progressive enhancement",
+    "react ssr",
+    "react universal",
+    "typescript"
   ],
   "husky": {
     "hooks": {

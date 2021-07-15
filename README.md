@@ -26,6 +26,8 @@ A collection of React hooks and components for writing isomorphic applications.
 
 ## Examples 🚀
 
+[Try the CodeSandbox Example!](https://codesandbox.io/s/silly-monad-dnsvc?file=/pages/index.js)
+
 ### ClientOnly
 
 A component that prevents server side rendering of its' children.
