@@ -1,6 +1,6 @@
 {
   "name": "react-isomorphic-utils",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Toolkit for writing React apps that run on the client (CSR) and the server (SSR)",
   "license": "MIT",
   "author": "Tate <tatethurston@gmail.com>",
