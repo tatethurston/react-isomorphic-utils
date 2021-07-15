@@ -10,7 +10,6 @@
     "moduleResolution": "Node",
     "noEmitOnError": false,
     "outDir": "dist",
-    "removeComments": true,
     "resolveJsonModule": true,
     "rootDir": "src",
     "skipLibCheck": true,
