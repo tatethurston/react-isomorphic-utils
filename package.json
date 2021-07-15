@@ -1,6 +1,6 @@
 {
   "name": "react-isomorphic-utils",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "description": "Toolkit for writing React apps that run on the client (CSR) and the server (SSR)",
   "license": "MIT",
   "author": "Tate <tatethurston@gmail.com>",
@@ -21,9 +21,7 @@
     "lint": "yarn typecheck && prettier --check . && prettier-package-json --list-different '{,example/,}package.json' && eslint .",
     "lint:fix": "prettier --write . && prettier-package-json --write '{,example/}package.json' && eslint --fix .",
     "test": "yarn jest",
-    "typecheck": "yarn tsc --noEmit",
-    "version": "yarn run build && git add -A package.json",
-    "postversion": "git push && git push --tags"
+    "typecheck": "yarn tsc --noEmit"
   },
   "sideEffects": false,
   "types": "dist/index.d.ts",
