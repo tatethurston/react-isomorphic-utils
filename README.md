@@ -28,7 +28,7 @@ A collection of React hooks and components for writing isomorphic applications.
 
 ### ClientOnly
 
-A component that prevents server side rendering of its' children
+A component that prevents server side rendering of its' children.
 
 ```jsx
 // 'Client Only!' will only be rendered client side
@@ -40,7 +40,8 @@ A component that prevents server side rendering of its' children
 `ClientOnly` optionally accepts a `placeholder` prop which will be rendered in place of the children on the server.
 
 ```jsx
-// 'Loading...' will be rendered on the server, and then 'Client Only!' will be rendered when JS boots on the client.
+// 'Loading...' will be rendered on the server, and then 'Client Only!'
+// will be rendered when JS boots on the client
 <ClientOnly placeholder={<div>Loading...</div>}>
   <div>Client Only!</div>
 </ClientOnly>
