@@ -9,6 +9,9 @@
     "url": "https://github.com/tatethurston/react-isomorphic-utils"
   },
   "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "build": "yarn clean && yarn tsc && yarn webpack",
     "clean": "rm -rf dist",
