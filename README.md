@@ -56,7 +56,7 @@ Returns true when JS has booted on the client. This can be used to implement pro
 ```jsx
 const jsEnabled = useJSEnabled();
 
-return <button disabled={jsEnabled} onClick={openModal} />;
+return <button disabled={!jsEnabled} onClick={openModal} />;
 ```
 
 Above, the button will initially render in a disabled state, and when JS boots the button will become interactive.
