@@ -1,4 +1,4 @@
-# Rreact Isomorphic Utils
+# React Isomorphic Utils
 
 <blockquote>Toolkit for writing React apps that run on the client (CSR) and the server (SSR)</blockquote>
 
